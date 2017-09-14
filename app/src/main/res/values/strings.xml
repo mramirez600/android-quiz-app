@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">The Quiz App</string>
+    <string name="questa">1. Android\'s new release is named...</string>
+    <string name="quest1">2. What does an average human brain weigh?</string>
+    <string name="ans1a">14 grams</string>
+    <string name="ans1b">1.4 kilograms</string>
+    <string name="ans1c">14 kilograms</string>
+    <string name="results">Results</string>
+    <string name="ans2a">100</string>
+    <string name="ans2b">100 million</string>
+    <string name="ans2c">100 billion</string>
+    <string name="quest3">3. As your brain developed during early pregnancy, how fast did your neurons multiply?</string>
+    <string name="ans3a">250,000 per minute</string>
+    <string name="hints">Hints: Marshmallow, Nougat...</string>
+    <string name="white">White</string>
+    <string name="quest4">3. Which side of your brain has more neurons?</string>
+    <string name="ans4a">Right</string>
+    <string name="ans4b">Left</string>
+    <string name="ans4c">Both the same</string>
+    <string name="quest5">5. A synapse is a connection between two neurons through which they communicate. How many synapses does a typical neuron have?</string>
+    <string name="red">Red</string>
+    <string name="yellow">Yellow</string>
+    <string name="black">Black</string>
+    <string name="smarter">4. Which colors are in a rainbow?</string>
+</resources>
