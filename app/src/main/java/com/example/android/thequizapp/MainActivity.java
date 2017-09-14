@@ -9,6 +9,8 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
+import es.dmoral.toasty.Toasty;
+
 public class MainActivity extends AppCompatActivity {
 
     Button submit;
@@ -84,12 +86,20 @@ public class MainActivity extends AppCompatActivity {
         count = 0;
     }
 
+
+
     final View.OnClickListener submitButtonOnClickListener = new View.OnClickListener() {
         public void onClick(final View v){
             checkAll();
-            Toast.makeText(MainActivity.this, "Correct Answers: " + count + "/4",
-                    Toast.LENGTH_LONG).show();
+
+
+            if (count == 4) {
+                Toasty.success(MainActivity.this, "Correct Answers: " + count + "/4", Toast.LENGTH_SHORT, true).show();
             resetCounter();
+            } else {
+                Toasty.error(MainActivity.this, "Correct Answers: " + count + "/4", Toast.LENGTH_SHORT, true).show();
+                resetCounter();
+            }
         }
     };
 

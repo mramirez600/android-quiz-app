@@ -57,17 +57,17 @@
             <RadioButton
                 android:id="@+id/radioButton7"
                 style="@style/rbutton"
-                android:text="@string/ans4a" />
+                android:text="@string/rb_right" />
 
             <RadioButton
                 android:id="@+id/radioButton8"
                 style="@style/rbutton"
-                android:text="@string/ans4b" />
+                android:text="@string/rb_left" />
 
             <RadioButton
                 android:id="@+id/radioButton8a"
                 style="@style/rbutton"
-                android:text="@string/ans4c" />
+                android:text="@string/rb_both" />
         </RadioGroup>
 
 
@@ -86,28 +86,28 @@
                 android:id="@+id/red"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/red"
+                android:text="@string/cb_red"
                 android:textAppearance="?android:textAppearanceMedium" />
 
             <CheckBox
                 android:id="@+id/black"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/black"
+                android:text="@string/cb_black"
                 android:textAppearance="?android:textAppearanceMedium" />
 
             <CheckBox
                 android:id="@+id/white"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/white"
+                android:text="@string/cb_white"
                 android:textAppearance="?android:textAppearanceMedium" />
 
             <CheckBox
                 android:id="@+id/yellow"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/yellow"
+                android:text="@string/cb_yellow"
                 android:textAppearance="?android:textAppearanceMedium" />
         </LinearLayout>
 
